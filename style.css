@@ -1,0 +1,349 @@
+*{margin: 0;padding: 0;}
+body{}
+/*----- --- This the ICON STYLE------- ------*/
+.left-aro{
+	position: absolute;
+    margin-top:200px;
+    margin-left: 50px;
+    color: #FFF;
+}
+.left-aro:hover{background: #4BCAFF;}
+.right-aro {
+    position: absolute;
+    margin-left: 670px;
+    color: #FFF;
+    margin-top: -80px;
+}
+.right-aro:hover{background: #4BCAFF;}
+/*----- ------------- THIS THE HEADER AREA ------------ ----------- ------------ ----------*/
+.header-area{
+	background-image:url("img/bag.png");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.header-1{
+	height: 100px;
+	background: #0F1D2D;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	opacity: .7;
+}
+.logo{
+	width: 25%;
+	text-align: center;
+	margin-left:70px;
+}
+.logo img{}
+.manu{width: 75%;text-align: center;margin-left:100px;}
+.manu ul{list-style: none;}
+.manu ul li{display: inline-block;}
+.manu ul li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 5px 10px;
+	font-size: 14px;
+	color: #FFF;
+}
+.manu ul li a:hover{color:#4BCAFF;border-top:2px solid #4BCAFF;}
+.header-2{display: flex;
+	justify-content: center;
+	
+}
+.header-img{}
+.header-2 img{
+	width:482px;
+	height:474px;
+	margin-top: 50px;
+}
+.header-text{
+	margin-top: 140px;
+	margin-left:15px;
+	color:#FFF;
+}
+.header-text p{margin-top:10px;font-size: 30px;}
+.header-text span{display: block;;margin-top:35px;width: 80%;font-size: 20px;}
+.header-text a{
+	margin:40px 30px 15px 0;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 20px;
+	font-size: 14px;
+	border: 2px solid #FFF;
+	border-radius: 5px;
+	color: #FFF;
+}
+.header-icon{display: flex;margin-top: 30px;}
+.icon-text{}
+.icon-text h4{}
+.icom-img{margin-top: -9px;margin-left: 13px;}
+.fa{width: 40px;height: 40px;border: 1px solid #191C21;border-radius: 50%;background: #191C21;text-align: center;}
+.header-text a:hover{
+	background:#4BCAFF;
+	color: #FFF;
+	border: 2px solid #4BCAFF;
+	border-radius: 5px;
+}
+/*------------This the Summarise the features----------------------------*/
+/*.summaries-area{background: #868686;}*/
+.summarise-header{margin-top: 30px;text-align: center;}
+.summarise-header h2{}
+.summarise-header p{margin-top: 10px;}
+.summarise-contant{margin-top:50px;display: flex;justify-content:space-evenly;}
+.contant{width:20%;text-align: center;}
+.contant img{width:30%;}
+.contant h4{margin: 15px 0;}
+.contant h4:hover{color:#4BCAFF;}
+.contant p{margin: 10px 0;text-align:justify;}
+/*----This the Gallery Area----------------------------------------------*/
+.gallery-area{}
+.gallery-header{margin-top: 30px;text-align: center;}
+.gallery-header h2{}
+.gallery-header p{margin-top: 10px;}
+.gallery{margin-top:50px;display: flex;justify-content:space-evenly;}
+.images{width:20%;}
+.images img{width: 100%;}
+.images p{margin: 15px 0 20px;text-align:justify;}
+
+/*---- ------------ ------------ - - - This the Gallery Area----------------------------------------------*/
+.videos-area{margin: 50px 0 20px;}
+.videos{text-align: center;}
+.videos img{width:80%;}
+/*-------------- ----------- -- --This is the price Area-----------------------------------*/
+.price-area{}
+.peice-header{margin-top:50px;text-align: center;}
+.peice-header h2{}
+.peice-header p {margin: 5px 0 50px;}
+.peice-text{margin:25px 0 20px;display: flex;justify-content: space-evenly;}
+
+/*---------------price-1-------------------*/
+.price-1 {
+    width: 25%;
+    text-align: center;
+    background: #fbf4f4;
+    border: 1px solid #c7bcbc73;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.price-1 h4 {
+    margin: 15px 0 15px;
+}
+.price-1 h1{
+	background:#91C46B;
+	color:#fff;
+	font-size: 64px;
+	padding: 5px 0;
+	margin: 10px 0 15px;
+	border: 1px solid #91c46b;
+}
+.price-1 p{line-height: 1.9;}
+.price-1 a{
+	display: inline-block;
+	margin: 15px 0 15px;
+	background:#91C46B;
+	color:#FFF;
+	text-decoration: none;
+	padding: 10px 40px;
+	border: 1px solid #91c46b;
+}
+/*------------------price 2 ------------*/
+.price-2{
+    width: 25%;
+    text-align: center;
+    background: #fbf4f4;
+    border: 1px solid #c7bcbc73;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.price-2 h4{
+    margin: 15px 0 15px;
+}
+.price-2 h1{
+	background:#4BCAFF;
+	color:#fff;
+	font-size: 64px;
+	padding: 5px 0;
+	margin: 10px 0 15px;
+	border: 1px solid #91c46b;
+}
+.price-2 p{line-height: 1.9;}
+.price-2 a{
+	display: inline-block;
+	margin: 15px 0 15px;
+	background:#4BCAFF;
+	color:#FFF;
+	text-decoration: none;
+	padding: 10px 40px;
+	border: 1px solid #91c46b;}
+
+/*----------------------pricce 3----------------*/
+.price-3{
+    width: 25%;
+    text-align: center;
+    background: #fbf4f4;
+    border: 1px solid #c7bcbc73;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.price-3 h4{
+    margin: 15px 0 15px;
+}
+.price-3 h1{
+	background:#FD7C00;
+	color:#fff;
+	font-size: 64px;
+	padding: 5px 0;
+	margin: 10px 0 15px;
+	border: 1px solid #91c46b;
+}
+.price-3 p{line-height: 1.9;}
+.price-3 a{
+	display: inline-block;
+	margin: 15px 0 15px;
+	background:#FD7C00;
+	color:#FFF;
+	text-decoration: none;
+	padding: 10px 40px;
+	border: 1px solid #91c46b;
+}
+/*-----------This the price hover area-------------*/
+.price-1:hover{
+	color: #303841;
+	border-top-left-radius: 10px;
+  	border-bottom-left-radius: 10px;
+  	animation-duration: 0.25s;
+  	border-left: 8px solid red;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.price-2:hover{
+	color: #303841;
+	border-top-left-radius: 10px;
+  	border-bottom-left-radius: 10px;
+  	animation-duration: 0.25s;
+  	border-left: 8px solid red;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  	}
+.price-3:hover{
+	color: #303841;
+	border-top-left-radius: 10px;
+  	border-bottom-left-radius: 10px;
+  	animation-duration: 0.25s;
+  	border-left: 8px solid red;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.price-1 a:hover{
+	border: 3px solid #91C46B;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.price-2 a:hover{
+	border: 3px solid #4BCAFF;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.price-3 a:hover{
+	border: 3px solid #FD7C00;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+/*------ -------------------- This is the Testmonilas Area ---------------------------------------*/
+.testimonials-area{}
+.testimonials-header{text-align: center;margin-top: 70px;}
+.testimonials-header h2{}
+.testimonials-text{display: flex;justify-content: center;align-items: center;margin-bottom:30px;}
+.text-left{margin: 0 50px;}
+.text-left img{}
+.text-right{width: 26%;text-align: justify;}
+.text-right p{margin:100px 0 30px;color:#4BCAFF;}
+.text-right h5{text-align:end;color:#4BCAFF;margin-bottom: 50px;}
+/*--  ----- ----- ----- --- - -- This is the Download Area - -- --- ---- ----- ------ -------- --*/
+.download{background: #414042;}
+.download-head{text-align: center;}
+.download-head h1 {
+    color: #FFF;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: -23px;
+    text-align: center;
+    display: inline-block;
+}
+.download-head a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: 1px solid #4BCAFF;
+    background: #4BCAFF;
+    color: #435864;
+     }
+    
+.download-head a:hover{
+	border-radius: 5px;
+  	animation-name: example;
+  	animation-duration:.25s;
+  	border: 3px solid #4BCAFF;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+/*-- ---- ------- ----- ---- ---- This the contact Area ------ ------ --- ---- -- ---- --- --*/
+.contact-area{
+	background:url("img/map1.png");
+	width: 100%;
+	height:610px;
+	position: relative;
+}
+.contact {
+    background: #4BCAFF;
+    border: 1px solid #4BCAFF;
+    width: 30%;
+    text-align: center;
+    opacity: .9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.contact h2{color: #FFF;padding: 15px 0;}
+.contact form{}
+input[type=text], input[type=email], select{
+	width: 85%;
+	height:30px; 
+	box-sizing: border-box;
+}
+.contact textarea{height:150px;	width: 85%;box-sizing: border-box;}
+.contact input[type=submit] {
+    width: 50%;
+    height: 40px;
+    margin: 0 0 20px;
+    color: #4BCAFF;
+    background: #414042;
+    opacity:1;
+    box-sizing: border-box;
+    border: 1px solid #414042;
+    border-radius: 5px;
+}
+/*---------------------------------------This is the Footer Area---------------------------------*/
+.foorte-area{background: #414042;height:100px;width:100%;}
+.footer {
+    color: #606060;
+    display: flex;
+    justify-content: center;
+}
+.footer-left {
+    width: 70%;
+    margin: 40px 0 40px;
+}
+.footer-right{display: flex;align-items: center;}
+.ex a {
+	text-decoration: none;
+    color: #606060;
+    display: inline-block;
+    padding: 0px 5px;
+}
+.ex a:hover{
+    color: #4BCAFF;
+}
+/*---- ----- ------ ----- ----- ---- -----This is the Key Frames Area -------- ------- ------*/
+@keyframes example {
+  from {background-color:red;}
+  to {background-color:yellow;}
+  
